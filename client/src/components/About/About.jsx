@@ -25,10 +25,10 @@ function About() {
   }, []);
 
   const skills = {
-    frontend: ['React.js', 'Vue.js', 'JavaScript ES6+', 'TypeScript', 'HTML5', 'CSS3/SASS', 'Tailwind CSS', 'Redux'],
-    backend: ['Node.js', 'Python', 'Express.js', 'Django', 'FastAPI', 'RESTful APIs', 'GraphQL', 'Microservices'],
-    database: ['PostgreSQL', 'MongoDB', 'Redis', 'AWS', 'Docker', 'Kubernetes', 'CI/CD', 'Terraform'],
-    tools: ['Git', 'Agile/Scrum', 'TDD', 'Jest', 'Cypress', 'Webpack', 'Linux', 'Figma']
+    frontend: ['React.js', 'JavaScript ES6+', 'HTML5', 'CSS3', 'Tailwind CSS','Next.js'],
+    backend: ['Python', 'Django', 'FastAPI', 'RESTful APIs','Langchain','Langgraph'],
+    database: ['PostgreSQL','MySql'],
+    tools: ['Git', 'Docker','VS-Code','MCP']
   };
 
   return (
