@@ -27,7 +27,7 @@ function About() {
   const skills = {
     frontend: ['React.js', 'JavaScript ES6+', 'HTML5', 'CSS3', 'Tailwind CSS','Next.js'],
     backend: ['Python', 'Django', 'FastAPI', 'RESTful APIs','Langchain','Langgraph'],
-    database: ['PostgreSQL','MySql'],
+    database: ['PostgreSQL','MySql',"AWS"],
     tools: ['Git', 'Docker','VS-Code','MCP']
   };
 
@@ -42,9 +42,8 @@ function About() {
         <div className="about-content">
           <div className="about-text">
             <p>
-              I'm a passionate software engineer with a strong foundation in full-stack development. 
-              My journey began with a Computer Science degree, and I've since worked with startups 
-              and established companies to build impactful digital solutions.
+              I am a passionate software engineer with a strong foundation in designing and building web applications. Although I have not yet worked professionally in a company,
+              I have gained practical experience by completing numerous personal and academic projects. These projects have helped me sharpen my skills in various programming languages, frameworks, and problem-solving techniques.
             </p>
             <p>
               I believe in writing clean, maintainable code and staying current with industry trends. 
@@ -52,7 +51,7 @@ function About() {
               junior developers, or exploring new technologies.
             </p>
             <p>
-              My goal is to create software that not only meets business requirements but also 
+              My goal is to create software and websites that not only meets business requirements but also 
               provides exceptional user experiences and contributes positively to the community.
             </p>
           </div>
@@ -67,8 +66,8 @@ function About() {
               <span className="stat-label">Projects Completed</span>
             </div>
             <div className="stat-item">
-              <span className="stat-number">20+</span>
-              <span className="stat-label">Happy Clients</span>
+              <span className="stat-number">5+</span>
+              <span className="stat-label">Certifications</span>
             </div>
             <div className="stat-item">
               <span className="stat-number">15+</span>

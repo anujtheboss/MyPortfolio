@@ -32,7 +32,7 @@ function Projects() {
       icon: "fas fa-book",
       technologies: ["React", "Django", "Mysql", "Stripe API", "JWT"],
       liveUrl: "#",
-      githubUrl: "#"
+      githubUrl: "https://github.com/AnuzThapa/E-Learning-LMS-Platform"
     },
     {
       id: 2,
@@ -41,7 +41,7 @@ function Projects() {
       icon: "fas fa-stethoscope",
       technologies: ["React", "Django", "JWT", "LLMs"],
       liveUrl: "#",
-      githubUrl: "#"
+      githubUrl: "https://github.com/AnuzThapa/Smart-Hospital-System"
     },
     {
       id: 3,
@@ -50,7 +50,7 @@ function Projects() {
       icon: "fas fa-question-circle",
       technologies: ["React", "Django","LLMs", "NLP", "Docker"],
       liveUrl: "#",
-      githubUrl: "#"
+      githubUrl: "https://github.com/BirendraKSharma/mcqs_generation"
     },
     {
       id: 4,
@@ -59,7 +59,7 @@ function Projects() {
       icon: "fas fa-magic",
       technologies: ["React", "Gemini API", "Firebase", "LangChain"],
       liveUrl: "#",
-      githubUrl: "#"
+      githubUrl: "https://github.com/AnuzThapa/MultiModal-RAG"
     },
     {
       id: 5,
@@ -68,7 +68,7 @@ function Projects() {
       icon: "fas fa-robot",
       technologies: ["Python", "React", "NLP", "Nextjs", "OLLAMA"],
       liveUrl: "#",
-      githubUrl: "#"
+      githubUrl: "https://github.com/anujtheboss/Gemini-clone"
     },
     {
       id: 6,
@@ -77,7 +77,7 @@ function Projects() {
       technologies: ["React", "FastAPI", "LLM", "Docker"],
       icon:"fas fa-pen",
       liveUrl: "#",
-      githubUrl: "#"
+      githubUrl: "https://github.com/AnuzThapa/RAG-Based-Researcher"
     }
   ];
 

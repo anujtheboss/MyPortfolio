@@ -52,7 +52,7 @@ function Hero() {
             <span className="cursor">|</span>
           </div>
           <p>
-            Passionate software engineer with 5+ years of experience building scalablefullstack web applications. 
+            I'm a passionate software engineer with 5+ years of experience building scalable fullstack web applications. 
             I love turning complex problems into simple, beautiful solutions that make a difference.
           </p>
           <div className="hero-buttons">
@@ -77,13 +77,13 @@ function Hero() {
               <a href="https://github.com" aria-label="GitHub">
                 <i className="fab fa-github"></i>
               </a>
-              <a href="https://linkedin.com" aria-label="LinkedIn">
+              <a href="https://www.linkedin.com/in/anuj-thapa-4370b9305/" aria-label="LinkedIn">
                 <i className="fab fa-linkedin"></i>
               </a>
               <a href="https://twitter.com" aria-label="Twitter">
                 <i className="fab fa-twitter"></i>
               </a>
-              <a href="mailto:john.smith@email.com" aria-label="Email">
+              <a href="mailto:anujth345@gmail.com" aria-label="Email">
                 <i className="fas fa-envelope"></i>
               </a>
             </div>
