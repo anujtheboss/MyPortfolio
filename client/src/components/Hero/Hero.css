@@ -26,7 +26,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
-  margin-top:100px;
+  margin-top:60px;
   align-items: center;
   position: relative;
   z-index: 1;
