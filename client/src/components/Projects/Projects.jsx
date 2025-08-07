@@ -27,55 +27,55 @@ function Projects() {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution with user authentication, payment processing, inventory management, and real-time analytics dashboard.",
-      icon: "fas fa-shopping-cart",
-      technologies: ["React", "Node.js", "PostgreSQL", "Stripe API", "AWS"],
+      title: "E-Learning LMS Platform",
+      description: "A full-stack e-learning platform with user authentication, course management, and real-time analytics dashboard.",
+      icon: "fas fa-book",
+      technologies: ["React", "Django", "Mysql", "Stripe API", "JWT"],
       liveUrl: "#",
       githubUrl: "#"
     },
     {
       id: 2,
-      title: "Task Management App",
-      description: "A collaborative project management tool with real-time updates, file sharing, team communication, and advanced reporting features.",
-      icon: "fas fa-tasks",
-      technologies: ["Vue.js", "Python", "FastAPI", "WebSocket", "MongoDB"],
+      title: "Smart Hospital System",
+      description: "A comprehensive hospital management system with appointment scheduling, patient records, and telemedicine features with AI integration.",
+      icon: "fas fa-stethoscope",
+      technologies: ["React", "Django", "JWT", "LLMs"],
       liveUrl: "#",
       githubUrl: "#"
     },
     {
       id: 3,
-      title: "Analytics Dashboard",
+      title: "MCQ Generator with NLP",
       description: "A comprehensive business intelligence dashboard with interactive charts, real-time data visualization, and customizable reporting.",
-      icon: "fas fa-chart-line",
-      technologies: ["React", "D3.js", "Node.js", "Redis", "Docker"],
+      icon: "fas fa-question-circle",
+      technologies: ["React", "Django","LLMs", "NLP", "Docker"],
       liveUrl: "#",
       githubUrl: "#"
     },
     {
       id: 4,
-      title: "Mobile-First Web App",
-      description: "A progressive web application with offline capabilities, push notifications, and seamless mobile experience across all devices.",
-      icon: "fas fa-mobile-alt",
-      technologies: ["React Native", "Expo", "Firebase", "PWA", "GraphQL"],
+      title: "MultiModal RAG",
+      description: "A RAG based website that takes documents and extract all the multimodal data from it and provides a chat interface to interact with the data.",
+      icon: "fas fa-magic",
+      technologies: ["React", "Gemini API", "Firebase", "LangChain"],
       liveUrl: "#",
       githubUrl: "#"
     },
     {
       id: 5,
-      title: "AI-Powered Chatbot",
-      description: "An intelligent customer service chatbot with natural language processing, sentiment analysis, and integration with multiple communication channels.",
+      title: "OLLAMA bot",
+      description: "An intelligent local model based chatbot that mimic the feature of ChatGPT with local models.",
       icon: "fas fa-robot",
-      technologies: ["Python", "TensorFlow", "NLP", "Flask", "OpenAI API"],
+      technologies: ["Python", "React", "NLP", "Nextjs", "OLLAMA"],
       liveUrl: "#",
       githubUrl: "#"
     },
     {
       id: 6,
-      title: "Secure API Gateway",
-      description: "A robust API gateway with authentication, rate limiting, request routing, monitoring, and comprehensive security features.",
-      icon: "fas fa-shield-alt",
-      technologies: ["Node.js", "Express", "JWT", "OAuth2", "Kubernetes"],
+      title: "Agentic RAG Researcher",
+      description: "RAG based research assistant that can search the web, summarize articles, and provide insights on various topics.",
+      technologies: ["React", "FastAPI", "LLM", "Docker"],
+      icon:"fas fa-pen",
       liveUrl: "#",
       githubUrl: "#"
     }
