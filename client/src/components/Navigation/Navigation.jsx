@@ -30,7 +30,7 @@ function Navigation() {
     <nav className={`navigation ${isScrolled ? 'scrolled' : ''}`}>
       <div className="nav-container">
         <a href="#" className="logo" onClick={(e) => { e.preventDefault(); scrollToSection('home'); }}>
-          JS
+          AZ
         </a>
         <ul className={`nav-links ${isMobileMenuOpen ? 'mobile-open' : ''}`}>
           <li><a href="#home" onClick={(e) => { e.preventDefault(); scrollToSection('home'); }}>Home</a></li>

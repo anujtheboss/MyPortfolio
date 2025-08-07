@@ -72,7 +72,7 @@ function Contact() {
                 <i className="fas fa-envelope"></i>
                 <div>
                   <strong>Email</strong>
-                  <p>john.smith@email.com</p>
+                  <p>anujth345@email.com</p>
                 </div>
               </div>
               
@@ -80,7 +80,7 @@ function Contact() {
                 <i className="fas fa-phone"></i>
                 <div>
                   <strong>Phone</strong>
-                  <p>+1 (555) 123-4567</p>
+                  <p>+977-9825952361</p>
                 </div>
               </div>
               
@@ -88,7 +88,7 @@ function Contact() {
                 <i className="fas fa-map-marker-alt"></i>
                 <div>
                   <strong>Location</strong>
-                  <p>San Francisco, CA</p>
+                  <p>Kathmandu, Nepal</p>
                 </div>
               </div>
               

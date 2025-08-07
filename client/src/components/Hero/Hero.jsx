@@ -1,13 +1,13 @@
 import { useState, useEffect } from 'react';
 import './Hero.css';
-
+import profile from '../../assets/profile1.png'; // Adjust the path as necessary
 function Hero() {
   const [typingText, setTypingText] = useState('');
   const [isDeleting, setIsDeleting] = useState(false);
   const [textIndex, setTextIndex] = useState(0);
   const [charIndex, setCharIndex] = useState(0);
 
-  const texts = ['Full-Stack Developer', 'React Specialist', 'Problem Solver', 'Tech Enthusiast'];
+  const texts = ['Full-Stack Developer', 'React Specialist', 'Problem Solver', 'Tech Enthusiast','Data Scientist'];
 
   useEffect(() => {
     const typeWriter = () => {
@@ -46,13 +46,13 @@ function Hero() {
     <section id="home" className="hero">
       <div className="hero-container">
         <div className="hero-content">
-          <h1>John Smith</h1>
+          <h1>Anuj Thapa</h1>
           <div className="typing-text">
             {typingText}
             <span className="cursor">|</span>
           </div>
           <p>
-            Passionate software engineer with 5+ years of experience building scalable web applications. 
+            Passionate software engineer with 5+ years of experience building scalablefullstack web applications. 
             I love turning complex problems into simple, beautiful solutions that make a difference.
           </p>
           <div className="hero-buttons">
@@ -69,7 +69,7 @@ function Hero() {
         <div className="hero-image">
           <div className="profile-card">
             <img 
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400" 
+              src={profile} 
               alt="John Smith - Software Engineer" 
               className="profile-image"
             />

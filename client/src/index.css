@@ -72,6 +72,9 @@ h1, h2, h3, h4, h5, h6 {
 /* Smooth scrolling */
 html {
   scroll-behavior: smooth;
+  font-size:22px !important;
+  /* transform: scale(1.1); */
+  /* transform-origin: top left; */
 }
 
 /* Remove default button styles */
